@@ -5,11 +5,11 @@ C++
 
 Models the graph, a recursive data structure consisting of a collection of nodes, each of which can have any number of links (called arcs) to other nodes.
 
-1. Optimal search path (Dijkstra's algorithm)
+1. **Optimal search path (Dijkstra's algorithm)**
 Organizes the search to pursue the promising short paths first and only explore the longer routes if nothing better
 is found earlier. Does this by keeping a priority queue of all paths constructed, prioritized in terms of distance.
 
-2. Minimal spanning tree (Kruskal's algorithm)
+2. **Minimal spanning tree (Kruskal's algorithm)**
 Finds the spanning tree in which the total cost associated with the arcs is as small as possible. Goal is to minimize the overall total distance. Considers shorter arcs before the longer ones (uses a priority queue as well).
 
 
